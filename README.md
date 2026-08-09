@@ -1,5 +1,17 @@
 # Unified Observability Stack 📊
 
+## Architecture Diagram
+
+```mermaid
+graph TD
+  Apps -->|Metrics| Prometheus
+  Apps -->|Logs| ELK
+  Apps -->|Traces| SigNoz
+  Prometheus --> Grafana
+  ELK --> Kibana
+```
+
+
 A comprehensive, production-grade monitoring project demonstrating the integration and orchestration of industry-leading observability tools.
 
 ## 🚀 Supported Tools
