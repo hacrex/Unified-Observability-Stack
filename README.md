@@ -40,3 +40,8 @@ A comprehensive, production-grade monitoring project demonstrating the integrati
 
 ---
 *Maintained by [HacRex](https://github.com/hacrex)*
+
+## 🛠️ Functional Templates
+This repository includes production-ready templates to get started quickly:
+- **Terraform**: Located in `terraform/templates/` for cluster and provider setup.
+- **Kubernetes**: Located in `kubernetes/manifests/` for application deployment and security policies.
