@@ -6,3 +6,6 @@ build/
 *.log
 terraform.tfstate*
 .terraform/
+
+__pycache__/
+*.py[cod]
