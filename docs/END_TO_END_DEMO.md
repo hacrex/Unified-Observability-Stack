@@ -21,7 +21,7 @@ Open the following local endpoints after validation:
 | `http://localhost:3000/` | Grafana with Prometheus and Jaeger datasources provisioned. |
 | `http://localhost:5601/` | Kibana; Elasticsearch is started but this demo does not ship application logs to it. |
 
-## What this proves
+## Scope
 
 The demo proves a local metrics and tracing path. It does **not** prove production telemetry security, high availability, data-retention controls, or a SaaS integration. The demo service emits JSON logs to its container stdout; a separate log shipper and approved log-retention policy are still required before calling Elasticsearch/Kibana an application-log solution.
 
